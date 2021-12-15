@@ -1,0 +1,45 @@
+*{
+  background-color: bisque;
+}
+.App{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background-color: cadetblue;
+  transform: translate(-50%, -50%);
+  
+  border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 10px #888888;
+  border-radius: 10px;
+  
+}
+.divContainer{
+  background-color: cadetblue;
+  position: flex;
+  
+}
+.label{
+  background-color: cadetblue;
+  position: flex;
+  justify-content: space-around;
+  text-align: center;
+  justify-content: space-between;
+ 
+}
+.btn{
+  background-color: green;
+  margin-left:110px;
+  padding: 5px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background-color: rgb(129, 72, 101);
+}
+.paraDiv{
+  position: absolute;
+  top: 110%;
+  
+}
